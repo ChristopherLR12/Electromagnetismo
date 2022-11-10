@@ -1,0 +1,173 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\rfoot{\thepage}
+\setlength{\textwidth}{172mm}
+\setlength{\textheight}{235mm}
+\setlength{\oddsidemargin}{-7mm}
+\setlength{\topmargin}{-20mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage[mathscr]{euscript}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{multicol}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{definitions}
+%\input{qmdef}
+\newcommand{\be}{\begin{equation*}}
+\newcommand{\ee}{\end{equation*}}
+\newcommand{\ble}[1]{\begin{equation} \label{#1}}
+\newcommand{\bae}{\begin{eqnarray}}
+\newcommand{\eae}{\end{eqnarray}}
+\newcommand{\sint}{\sin{\theta}}
+\newcommand{\cost}{\cos{\theta}}
+\newcommand{\pl}{\left(}
+\newcommand{\pr}{\right)}
+\newcommand{\kl}{\left[}
+\newcommand{\kr}{\right]}
+\newcommand{\ii}{\int_{-\infty}^\infty}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\pa}{\vspace{2mm}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\centerline{\Large \textbf{\textsc{\textcolor{NavyBlue}{Óptica}}}}
+\vspace{3mm}
+\centerline{\large \textsc{TAREA 7}}
+\vspace{2mm}
+\centerline{\large \textsc{Christopher López Ruiz}}
+
+\vspace{-13pt}
+
+\begin{center}
+\line(1,0){480}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                                                               Problemas                                                                %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{3pt}
+%%%%%%%%%%%%%%%%%%%%%%%  PROBLEMA 1  %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+\begin{description}
+\item[\colorbox{TealBlue}{\textbf{1.-}}]
+
+Se tiene que una interferencia constructiva se tiene
+
+\be
+y = \frac{L}{a}m\lambda \Rightarrow L = \frac{y\,a}{m \, \lambda}
+\ee
+
+Donde para la luz verde se tiene que $\lambda \approx 525 \, nm $, entonces sabiendo que $a$ es la distancia entre las rendijas, $y$ es la distancia de separación de las franjas de interferencia y tomando a $m = 1$ se tiene
+
+\be
+L = \frac{ 8 \times 10^{-4} \,m \, 25 \times 10^{-3} \, m}{1 \times \, 525 \times 10^{-9} \, m} = 38.09 \, m
+\ee
+
+Por lo tanto se necesita que la pantalla debe estar a $38.09 \, m$ de las rendijas.
+
+
+\end{description}
+
+\vspace{3pt}
+%%%%%%%%%%%%%%%%%%%%%%%  PROBLEMA 2 %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\vspace{1mm}
+
+
+\begin{description}
+\item[\colorbox{TealBlue}{\textbf{2.-}}]
+
+\end{description}
+
+En el interferómetro de Michelson hay una interferencia constructiva cuando
+
+\be
+2d\,\cos{\theta} = \pl m + \frac{1}{2} \pr \lambda 
+\ee
+
+y el punto central es máximo cuando $\theta_0 = 0$, es decir cuando
+
+\be
+2d = \pl m_0 + \frac{1}{2} \pr \lambda \Rightarrow m_0 = \frac{2d}{\lambda} - \frac{1}{2}
+\ee
+
+Por otra parte la $N$-ésima franja del interferómetro está dada Por
+
+\be
+2d\,\cos{\theta_N} = \pl m_0 - N + \frac{1}{2} \pr \lambda \Rightarrow 
+2d\,\cos{\theta_N} = \pl \frac{2d}{\lambda} - \frac{1}{2} - N + \frac{1}{2} \pr \lambda \Rightarrow 
+\cos{\theta_N} = \pl \frac{1}{\lambda} - \frac{N}{2d} \pr \lambda
+\ee
+
+\be
+\theta_N = \cos^{-1}\pl 1 - \frac{N\,\lambda}{2d} \pr
+\ee
+
+Tomando $\lambda = 605 \, nm = 605 \times 10^{-9} \, m$ entonces para el inciso $a)$
+
+\be
+\theta_0 = \cos^{-1}\pl 1 - \frac{10 \times 605 \times 10^{-9} \, m}{1.5 \times 10^{-3} \, m} \pr
+\ee
+
+
+\vspace{3pt}
+%%%%%%%%%%%%%%%%%%%%%%%  PROBLEMA 3  %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{description}
+\item[\colorbox{TealBlue}{\textbf{3.-}}]
+
+\end{description}
+
+\vspace{3pt}
+%%%%%%%%%%%%%%%%%%%%%%%  PROBLEMA 4  %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{description}
+\item[\colorbox{TealBlue}{\textbf{4.-}}]
+
+Se tiene que para una interferencia constructiva
+
+\be
+\frac{x^2}{R} =\pl m+\frac{1}{2} \pr \lambda \Rightarrow R = \frac{x^2}{(m+\frac{1}{2}) \lambda}
+\ee
+
+Así entonces
+
+\be
+R = \frac{(1\times 10^{-2} \, m)^2}{(20+\frac{1}{2}) \, 500 \times 10^{-9} \, m} = 9.75 \, m
+\ee
+
+\end{description}
+
+\vspace{3pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%  PROBLEMA 4  %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{description}
+\item[\colorbox{TealBlue}{\textbf{5.-}}]
+    
+\end{description}
+    
+\vspace{3pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\line(1,0){480}
+\end{center}
+
+\end{document}
